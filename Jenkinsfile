@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven 3.20'
-    }
     stages {
         stage('clone') {
             steps {
