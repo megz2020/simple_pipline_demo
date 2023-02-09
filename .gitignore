@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#ignore .env file
+.env
+#ignore .vscode folder
+.vscode
+
+# ignore jenkinsfiles
+jenkins_home
